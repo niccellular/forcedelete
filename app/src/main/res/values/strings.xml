@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Force Delete</string>
+    <!-- description -->
+    <string name="app_desc">This plugin lets you remotely delete map items.</string>
+    <string name="remote_force_delete">Remote Force Delete</string>
+
+
+</resources>
