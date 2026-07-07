@@ -11,9 +11,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import com.atakmap.android.maps.MapView;
-import transapps.maps.plugin.tool.Group;
-import transapps.maps.plugin.tool.Tool;
-import transapps.maps.plugin.tool.ToolDescriptor;
 
 public class ForceDeleteTool extends AbstractPluginTool {
 

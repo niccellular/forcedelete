@@ -1,21 +1,5 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath('com.android.tools.build:gradle:4.2.2') {
-            exclude group: "net.sf.proguard", module: "proguard-gradle"
-        }
-        classpath 'com.guardsquare:proguard-gradle:7.2.2'
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+plugins {
+    id("com.android.application") version "8.13.0" apply false
 }
 
 task clean(type: Delete) {
